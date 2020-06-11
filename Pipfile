@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+gtts = "==2.1.1"
+playsound = "==1.2.2"
+speechrecognition = "==3.8.1"
+pyaudio = "==0.2.11"
+gcloud = "*"
+google-api-python-client = "*"
+
+[requires]
+python_version = "3.6"
