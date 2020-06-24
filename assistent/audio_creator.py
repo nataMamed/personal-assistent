@@ -12,4 +12,4 @@ def create_audio(audio:str, filename:str):
     playsound(audio_path) #Windows
 
 if __name__=='__main__':
-    create_audio('Wait my friend', 'feedback')
+    create_audio('just a second','feedback')

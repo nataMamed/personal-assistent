@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+ipdb = "*"
 
 [packages]
 gtts = "==2.1.1"
@@ -12,6 +13,7 @@ speechrecognition = "==3.8.1"
 pyaudio = "==0.2.11"
 gcloud = "*"
 google-api-python-client = "*"
+pyfirmata = "*"
 
 [requires]
 python_version = "3.6"
